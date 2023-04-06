@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+header{
+    background-image: url(img/free-hand-sketch-of-new-york-city-skyline-free-vector.webp);
+    background-size:contain;
+    width: 98.7%;
+    height: 5rem;
+    margin-top: -0.7%;
+    position: sticky;
+    z-index: 1;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 2.5rem;
+    font-family:cursive;
+}
+
+.locationStickyNotes{
+    background-color: blue;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+
+.stickyNote{
+    background-color: pink;
+    width: 350px;
+    height: 300px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.imgContainer{
+    background-color: greenyellow;
+    width: 250px;
+    height: 200px;
+    margin-left: 1.6rem;
+}
+img{
+    object-fit:scale-down;
+    width:100%;
+    height:100%;
+}
+
+.descriptiveText{
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: -2px;
+}
+p{
+    margin-top: -12px;
+}
