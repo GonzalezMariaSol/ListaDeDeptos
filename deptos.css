@@ -3,9 +3,8 @@ body{
 }
 
 header{
-    background-image: url(img/free-hand-sketch-of-new-york-city-skyline-free-vector.webp);
+    background-color:#5e9db0;
     background-size:contain;
-    width: 98.7%;
     height: 5rem;
     margin-top: -0.7%;
     position: sticky;
